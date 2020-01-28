@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -10,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Rating from './components/Rating';
+import Comments from './components/Comments';
 
 
 const useStyles = makeStyles(theme => ({
@@ -61,6 +63,7 @@ export default function Album() {
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <Rating></Rating>
+                  <Comments/>
                   <CardMedia
                     className={classes.cardMedia}
                     image="https://source.unsplash.com/random"
