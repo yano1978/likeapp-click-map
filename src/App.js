@@ -11,11 +11,11 @@ const headerStyles = makeStyles(theme => (
   titleStyle: {
     color: '#008000',
     paddingTop: '10%',
-    textAlign: 'left'
+    textAlign: 'center'
   },
   introStyle: {
     color: '#000000',
-    textAlign: 'left',
+    textAlign: 'center',
     fontSize: '17px'
   }
 }));
