@@ -135,7 +135,7 @@ export const Comments = () => {
               <br />
               <span className={classes.textBody}>{comment.body}</span>
               <CardActions>
-                {getCounts() + console.log(count)}
+                {getCounts(count['id']) + console.log(getCounts(count[2]))}
                 <CardContent size="small" color="primary">
                   <span className={classes.userLikes}>
                     {count} personas creéis que es útil
