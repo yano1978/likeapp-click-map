@@ -9,7 +9,7 @@ import { makeStyles} from '@material-ui/core/styles';
 const headerStyles = makeStyles(theme => (
   {
   titleStyle: {
-    color: '#008000',
+    color: '#72bcd4',
     paddingTop: '10%',
     textAlign: 'center'
   },
@@ -30,10 +30,10 @@ export default function Album() {
           <Container maxWidth="sm">
             <div>
             <Typography component="h3" variant="h4" align="center" gutterBottom className={classes.titleStyle}>
-              Valoraciones producto
+              Product reviews
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph className={classes.introStyle}>
-             Aquí puedes consultar las ultimas valoraciones que los usuarios han hecho sobre este producto
+              Here you can check the latest ratings that users have made about this product
             </Typography>
             </div>
           </Container>

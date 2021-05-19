@@ -33,7 +33,6 @@ export default function HoverRating() {
   return (
     <div className={classes.rating}>
       <Rating
-        name="hover-feedback"
         value={value}
         precision={0.5}
         onChange={(event, newValue) => {
